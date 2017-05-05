@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <title>EXERCICIO 02</title>
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <style type="text/css">
+
+        body {
+
+            padding-top: 40px;
+
+            padding-bottom: 40px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>EXERCICIO 02</h2>
+
+        <blockquote>
+
+            <p>Você foi chamado para trabalhar em um módulo de relatórios de um sistema ERP.</p>
+
+            <p>Exiba um relatório para o Gestor do ERP de acordo com ( regras e ) as opções disponíveis neste formulário.</p>
+
+            <footer>Dica: <cite title="Source Title"></cite></footer>
+
+        </blockquote>
+
+    </div>
+
+    <div class="container">
+
+        <h3>Relatórios</h3>
+
+        <form class="well" action="exerc_code.php" method="GET">
+
+            <div class="form-group">
+
+                <label class="inputState">Opções de Relatório Disponíveis:</label>
+
+                <select name="state" class="form-control">
+
+                    <option value="1">Relatório do Total de Vendas</option>
+
+                    <option value="2">Relatório dos Top 3 Produtos com Maior Venda</option>
+
+                    <option value="3">Relatório dos TopDown 10 Produtos com Menor Venda</option>
+
+                    <option value="4">Gerar Analitico</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <button type="submit" class="btn btn-primary">Consultar</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
