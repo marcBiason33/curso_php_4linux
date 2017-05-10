@@ -1,5 +1,5 @@
 <?php // generated from http://www.generatedata.com/
-
+//Calcular o valor total de vendas
 function getValorTotal( $pedidos ) {
 	
 	$total = 0;
@@ -10,15 +10,13 @@ $total = $total + $valor['valor_bruto'];
 
 } 
 
-return " O valor total das vendas : " . $total;
+return " O valor total das vendas é de R$ : " . $total;
 
 }
 
 
 
-/////////////////////////
-///////////////2 CONDICAO
-/////////////////////////
+//Retornar Tres mais vendidos
 
 function getTresMaisVendidos( $pedidos ) {
 
@@ -90,9 +88,7 @@ while( $contador < 3) {
 
 }
 
-/////////////////////////
-///////////////3 CONDICAO
-/////////////////////////
+//Retornar 10 menos vendidos
 
 function getDezMenosVendidos( $pedidos ) {
 
